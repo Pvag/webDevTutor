@@ -3,8 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans|Pacifico&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans|Pacifico|Quicksand&display=swap" rel="stylesheet">    <link rel="stylesheet" href="./style.css">
     <!-- <script language="javascript" type="text/javascript" src="libraries/p5.min.js"></script> -->
     <script language="javascript" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.10.2/p5.min.js"></script>
     <title>Hello HTML</title>
@@ -12,21 +11,40 @@
 <body>
     <h1>My Cool Portfolio</h1>
     <img src="./img/meriSpiaggia.jpg" alt="picture of Meri hooping at the beach" width="800px" desc="image of Meri on the beach">
-    <h2>Follow Me</h2>
-    <p>I am Meri, an artist...</p>
-    <div id="my-sketch"></div>
-    <h2>Next Dates</h2>
+    <h2>Something About Me</h2>
+    <div class="flex-container">
+        <div><p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident obcaecati molestias, natus facere inventore numquam nostrum? A tempora aspernatur architecto voluptatum, expedita repudiandae facere eaque est, ipsam inventore optio quos incidunt quae eos. Commodi numquam alias perspiciatis esse? Saepe, accusantium!</p></div>
+        <div><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis cum perspiciatis, pariatur minima aperiam esse. Ipsam totam veniam blanditiis vitae.</p></div>
+    </div>
+    <h2>I am (almost) a Developer</h2>
+    <div id="sketch-container">
+        <p>Here's a p5js sketch that I have made, enjoy:</p>
+        <div id="my-sketch"></div>
+    </div>
+    <h2>Hooping Shows,<br>Next Dates</h2>
     <div>
-        <ul>
-            <li>Palermo, IT</li>
-            <li>Ibiza, SP</li>
-            <li>Rome, IT</li>
+        <ul id="cities-tour">
+            <li>May 15th,<br>Palermo, IT</li>
+            <li>June 10th,<br>Ibiza, SP</li>
+            <li>June 16th,<br>Rome, IT</li>
         </ul>
-        <p>second child</p>
     </div>
     
     <h2>Contacts</h2>
-    <p>email: aa@cc.com</p>
+    <nav id="contacts-nav">
+        <ul id="contacts">
+            <li><a href="#">home</a></li>
+            <li><a href="#">office</a></li>
+            <li><a href="#">twitter</a></li>
+            <li><a href="#">instagram</a></li>
+            <li><a href="#">facebook</a></li>
+        </ul>
+    </nav>
+    <footer>
+        <address>
+            Developed by <a href="mailto:meri@gmail.com">Meri</a>
+        </address>
+    </footer>
     <script language="javascript" type="text/javascript" src="./basicAnimation.js"></script>
 </body>
 </html>
