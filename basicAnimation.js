@@ -1,16 +1,11 @@
-let sketch = function(p) {
-
-  p.setup = function() {
-    p.createCanvas(400, 200); // size has been replaced in p5 by createCanvas
-    p.background(0);
-  };
-
-  p.draw = function() {
-    p.rect(200, 50, 40, 40);
-    p.circle(p.width/2, p.height/2, 10);
-    p.rect(100, 20, 20, 20);
-  };
-
+function setup() {
+  const cnv = createCanvas(400, 200); // size has been replaced in p5 by createCanvas
+  background(0);
+  cnv.parent("my-sketch"); // easily set the parent for this canvas (avoids putting it to the end of the web page, which is the default behaviour)
 }
 
-let myp5 = new p5(sketch, "my-sketch");
+function draw() {
+  rect(200, 50, 40, 40);
+  circle(width/2, height/2, 10);
+  rect(100, 20, 20, 20);
+}

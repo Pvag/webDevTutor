@@ -34,9 +34,7 @@ p {
 }
 
 #my-sketch {
-    width: 60%;
-    margin: 0 auto;
-    /* border: solid 10px yellowgreen; */
-    /* justify-content: center;
-    align-items: center; */
+    display: flex; /* use a flexbox to style a p5js canvas */
+    justify-content: center; /* horizontally centered */
+    align-items: center; /* vertically centered */
 }
