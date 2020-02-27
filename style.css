@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    /* color: aquamarine; */
+    /* border: 1px solid black; */
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+    color: white;
+    background-color: darkblue;
+    font-family: 'Nunito Sans';
+}
+
+h1 {
+    /* border: 1px solid black; */
+    text-align: center;
+    background-color: lightcoral;
+    padding: 200px 80px;
+    font-size: 80px;
+    font-family: 'Pacifico';
+}
+
+img {
+    width: 100%;
+}
+
+p {
+    background-color: darkgray;
+    width: 100%;
+    padding-left: 20px;
+}
+
+#my-sketch {
+    width: 60%;
+    margin: 0 auto;
+    /* border: solid 10px yellowgreen; */
+    /* justify-content: center;
+    align-items: center; */
+}
