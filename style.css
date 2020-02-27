@@ -55,11 +55,17 @@ body {
     background-color: white;
 }
 
+hr {
+    width: 80%;
+    /* border-color: lightcoral; */
+}
+
 h2 {
     padding: 40px;
     text-align: center;
-    color: white;
-    background-color: lightcoral;
+    /* color: white; */
+    /* background-color: lightcoral; */
+    color: lightcoral;
     font-family: 'Pacifico';
     margin: 0;
     font-size: 40px;
@@ -67,6 +73,7 @@ h2 {
 
 div {
     padding: 40px;
+    margin-left: 20px;
 }
 
 h1 {
