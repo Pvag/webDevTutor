@@ -106,6 +106,28 @@ img {
     justify-content: space-evenly;
 }
 
+#buttons-container {
+    width: 50%;
+    margin: 40px auto;
+    display: block;
+    /* display: flex;
+    justify-content: space-between; */
+    background-color: aliceblue;
+}
+
+#buttons-container p {
+    box-sizing: border-box;
+    width: 32%; /* 3 element, ciascuno 32% e vengono quasi centrati */
+    margin: 10px 3px;
+    background-color: yellow;
+    text-align: center;
+    display: inline-block;
+}
+
+#buttons-container p:hover {
+    background-color: lightpink;
+}
+
 div > p {
     /* background-color:rgba(111, 0, 255, 0.26); */
     margin: 10px;
